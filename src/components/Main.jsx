@@ -1,6 +1,6 @@
 import React from "react";
 import {TypeAnimation} from 'react-type-animation';
-import {FaFacebookF, FaInstagram, FaLinkedin, FaGithub} from 'react-icons/fa';
+import {FaLinkedin, FaGithub} from 'react-icons/fa';
 
 const Main = () => {
     return (
@@ -32,8 +32,6 @@ const Main = () => {
                      />
                     </h2>
                 <div className='flex justify-between pt-6 max-w-[200px] w-full'>
-                    <FaFacebookF className='cursor-pointer' size={20} /> 
-                    <FaInstagram className='cursor-pointer' size={20} /> 
                     <FaLinkedin className='cursor-pointer' size={20} />  
                     <FaGithub className='cursor-pointer' size={20} /> 
                 </div>
