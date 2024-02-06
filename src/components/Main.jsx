@@ -31,9 +31,21 @@ const Main = () => {
                       repeat={Infinity}
                      />
                     </h2>
-                <div className='flex justify-between pt-6 max-w-[200px] w-full'>
-                    <FaLinkedin className='cursor-pointer' size={20} />  
-                    <FaGithub className='cursor-pointer' size={20} /> 
+                    <div className='flex justify-between pt-6 max-w-[200px] w-full'>
+                     <a 
+                        href="https://www.linkedin.com/in/keith-jordan-a98114275"
+                        target="_blank"
+                        rel="noopener noreferrer"  
+                    >
+                        <FaLinkedin className='cursor-pointer' size={20} />
+                    </a>
+                    <a 
+                        href="https://github.com/Keith-Jordan"  // Update with your GitHub profile URL
+                        target="_blank"
+                        rel="noopener noreferrer" 
+                    >
+                        <FaGithub className='cursor-pointer' size={20} /> 
+                    </a>
                 </div>
             </div>
             </div>
